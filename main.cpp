@@ -114,9 +114,6 @@ int main(){
 					angulo = atan2(x[i]-c[j].getPosition().x,y[i]-c[j].getPosition().y);
 					x[i] = sin(angulo) * velocidade;
 					y[i] = cos(angulo) * velocidade;
-					angulo-=180;
-					x[j] = sin(angulo) * velocidade;
-					y[j] = cos(angulo) * velocidade;
 				}
 
 			}
